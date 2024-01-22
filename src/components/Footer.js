@@ -7,22 +7,24 @@ import FooterYoutube from "../Assets/images/FotterYoutube.png"
 import FooterLinkedin from "../Assets/images/FooterLinkedin.png"
 const Footer = () => {
   return (
-    <div className='flex flex-row p-2 justify-around'>
-        <div className='flex flex-row '>
+    <div className='flex flex-col cs:flex-row  justify-between'>
+        <div className='flex flex-row  md:gap-165'>
         
-        <div className='flex flex-row mr-10'>
+      
+        <div className='flex flex-col cs:flex-row'>
 
-        <img className='w-28 h-6 mt-2' src={FooterLogo} alt="" />
+        <img className='cs:ml-82.5 ml-4   mt-5 w-185px h-33px' src={FooterLogo} alt="" />
         
+     
+        <p className=' text-xs ml-4 cs:ml-20.5 mt-10  text-gray-400'>press@showroom.store</p>
         </div>
-        <p className=' text-xs p-2 text-gray-400'>press@showroom.store</p>
         </div>
-        <div className='flex flex-row gap-2'>
-        <img className='p-2'  src={FooterTwitter}  alt="" />
-        <img className='p-2'   src={FooterYoutube} alt="" />
-        <img className='p-2'   src={FooterLinkedin} alt="" />
-        <img className='p-2'   src={FooterTikTok} alt="" />
-        <img className='p-2'   src={FooterInsta} alt="" />
+        <div className='flex flex-row gap-15px mt-6 ml-4 mr-342px mb-4.5'>
+        <img className=''  src={FooterTwitter}  alt="" />
+        <img className=''   src={FooterYoutube} alt="" />
+        <img className=''   src={FooterLinkedin} alt="" />
+        <img className=''   src={FooterTikTok} alt="" />
+        <img className=''   src={FooterInsta} alt="" />
         </div>
 
     </div>

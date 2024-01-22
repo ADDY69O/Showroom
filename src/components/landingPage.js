@@ -6,7 +6,7 @@ import Main from './Main'
 
 const landingPage = () => {
   return (
-    <div>
+    <div className=' ' >
       <Main/>
       <Body/>
       <AboveFotter/>
