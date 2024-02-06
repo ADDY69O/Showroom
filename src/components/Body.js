@@ -8,9 +8,9 @@
           <div className=' mt-32.5 md:mt-313px flex flex-col  lg:flex-row justify-between'>
             <div className=''>
               
-              <div className='flex flex-col bg-custom-landing-black   items-start h-full relative w-787px '>
+              <div className='flex flex-col bg-custom-landing-black   items-start h-full relative w-full md:w-787px '>
               <div className='h-10 bg-custom-component-blue-above-button w-full absolute top-0 left-0 font-source-sans-pro mr-2 '></div>
-                <h1 className='text-ft30-36.63 mt-92px mr-4 md:mt-92px md:mr-77px w-389px md:ml-239px flex flex-wrap    text-white font-helvetica-neue  font-bold  '>
+                <h1 className='text-ft30-36.63 ml-4.75 mt-92px mr-4 md:mt-92px md:mr-77px w-355px   md:w-389px md:ml-239px flex flex-wrap    text-white font-helvetica-neue  font-bold  '>
                   Give your online shoppers a better brand experience and level up your customer behavior insights.
                 </h1>
 
@@ -47,8 +47,8 @@
             <img className='hidden md:block md:w-full  md:h-full ' src={main2} alt="" />
             <img className=' md:hidden w-full h-full ' src={shoess} alt="" />
 
-            <div className='absolute  opacity-80 bottom-0 left-0 bg-custom-component-blue-above-image text-custom-nav-button p-4 w-full h-110px    '>
-              <p className=' mt-9.5 ml-51px mb-51px text-ft20-24.42 font-HelveticaNeueMedium  ' >Drag-and-drop products to rearrange store based on data findings.</p>
+            <div className='absolute  opacity-80 bottom-0 left-0 bg-custom-component-blue-above-image text-custom-nav-button p-4 w-full h-31 cs:h-110px    '>
+              <p className='mt-25px ml-4.75 mr-25 mb-25px  cs:mt-8 cs:ml-51px cs:mb-51px text-ft20-24.42 font-HelveticaNeueMedium  ' >Drag-and-drop products to rearrange store based on data findings.</p>
             </div>
             </div>
           </div>

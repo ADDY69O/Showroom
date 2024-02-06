@@ -16,12 +16,12 @@ const Footer = () => {
             alt=""
           />
 
-          <p className=" text-xs ml-4 cs:ml-20.5 mt-10  text-gray-400">
+          <p className=" font-SansProRegular text-ft14-17.6  ml-4 cs:ml-20.5 mt-7.5  text-gray-400">
             press@showroom.store
           </p>
         </div>
       </div>
-      <div className="flex flex-row gap-15px mt-6 ml-4 mr-342px mb-4.5">
+      <div className="flex flex-row gap-4 mt-6 ml-4 mr-342px mb-4.5">
         <img className="" src={FooterTwitter} alt="" />
         <img className="" src={FooterYoutube} alt="" />
         <img className="" src={FooterLinkedin} alt="" />

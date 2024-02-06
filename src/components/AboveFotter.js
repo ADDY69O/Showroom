@@ -9,8 +9,8 @@
 </h1>
 
           <div className='flex flex-row pt-33px gap-5 mb-30'>
-              <button className='w-max bg-custom-nav-button text-custom-landing-black font-SansProSemiBold font-semibold text-xs pt-3.5 pb-13px pr-37px pl-37px pb rounded-full'>Get Early Access</button>
-              <button className='w-max  border-2 border-custom-nav-button text-custom-nav-button bg-custom-component-blue-above-button  rounded-full font-SansProSemiBold pt-3.5  pb-13px  pr-8 pl-8  text-xs font-semibold'>Plans and Pricing</button>
+              <button className='w-max bg-custom-nav-button text-custom-landing-black font-SansProSemiBold font-semibold text-ft15-21.36 pt-3.5 pb-13px pr-37px pl-37px pb rounded-full'>Get Early Access</button>
+              <button className='w-max  border-2 border-custom-nav-button text-custom-nav-button bg-custom-component-blue-above-button  text-ft15-21.36 rounded-full font-SansProSemiBold pt-3.5  pb-13px  pr-8 pl-8   font-semibold'>Plans and Pricing</button>
       
           </div>
 
