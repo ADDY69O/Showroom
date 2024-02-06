@@ -2,3 +2,54 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: "Poppins-Medium";
+      src: url("./fonts/Poppins-Medium.ttf");
+    }
+    @font-face {
+      font-family: "Poppins-Regular";
+      src: url("./fonts/Poppins-Regular.ttf");
+    }
+    @font-face {
+      font-family: "Poppins-SemiBold";
+      src: url("./fonts/Poppins-SemiBold.ttf");
+    }
+    @font-face {
+      font-family: "Poppins-Bold";
+      src: url("./fonts/Poppins-Bold.ttf");
+    }
+    @font-face {
+      font-family: "Source-Sans-Pro-Regular";    
+      src: url("./fonts/source-sans-pro.regular.ttf");
+    }
+    @font-face {
+      font-family: "Source-Sans-Pro-Light";
+      src: url("./fonts/Source-Sans-Pro-Light.ttf");
+    }
+    @font-face {
+      font-family: "Source-Sans-Pro-Extralight";
+      src: url("./fonts/Source-Sans-Pro-Extralight.ttf");
+    }
+    @font-face {
+      font-family: "Source-Sans-Pro-Bold";
+      src: url("./fonts/Source-Sans-Pro-Bold.ttf");
+    }
+     @font-face {
+      font-family: "Source-Sans-Pro-SemiBold";
+      src: url("./fonts/source-sans-pro.semibold.ttf");
+    }
+    @font-face {
+      font-family: "Helvetica-Neue-Bold";
+      src: url("./fonts/Helvetica-Neue-Bold.ttf");
+    }
+    @font-face {
+      font-family: "Helvetica-Neue-Medium";
+      src: url("./fonts/HelveticaNeue-Medium.ttf");
+    }
+    @font-face {
+      font-family: "Inter-Regular";
+      src: url("./fonts/Inter-Regular-1.ttf");
+    }
+  }
