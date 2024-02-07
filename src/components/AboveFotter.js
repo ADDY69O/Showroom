@@ -4,7 +4,7 @@
     return (
       <div className='h-369px  bg-custom-component-blue-above-button text-custom-nav-button flex flex-col   justify-center items-center  '>
           
-          <h1 className='flex flex-row justify-center items-center text-ft40-48.84 font-HelveticaNeueBold font-bold mt-39px mr-77px ml-77px md:mt-118px md:mr-369px md:ml-83.5 text-center md:text-left'>
+          <h1 className='flex flex-row justify-center items-center text-ft40-48.84 font-HelveticaNeueBold font-bold mt-31 mr-77px ml-77px md:mt-118px md:mr-369px md:ml-83.5 text-center md:text-left'>
   Are You ready to create your Showroom?
 </h1>
 

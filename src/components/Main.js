@@ -11,7 +11,7 @@ const Main = () => {
           <h1 className="">Sell tomorrow.</h1>
         </div>
 
-        <div className=" md:mt-6 w-358px h-58px md:w-533px md:h-92px">
+        <div className=" cs:mt-6 w-358px h-58px cs:w-533px md:h-92px">
           <p className="text-ft14-17.6 cs:text-ft18-25 text-custom-landing-black flex flex-wrap font-normal font-InterRegular ">
             You don't need an agency to launch a SD Showroom. Do it yourself. No
             coding or Design experience necessary.
