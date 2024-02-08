@@ -6,7 +6,7 @@ const body = () => {
   return (
     <div className=" mt-32.5 md:mt-313px flex flex-col  lg:flex-row justify-between">
       <div className="">
-        <div className="flex flex-col bg-custom-landing-black   items-start h-full relative w-full md:w-787px ">
+        <div className="flex flex-col bg-custom-landing-black   items-start h-full relative w-full lp:w-787px  md:w-171 ">
           <div className="h-10 bg-custom-component-blue-above-button w-full absolute top-0 left-0 font-source-sans-pro mr-2 "></div>
           <h1 className="text-ft30-36.63 ml-4.75 mt-92px mr-4 md:mt-92px md:mr-77px w-355px   md:w-389px md:ml-239px flex flex-wrap    text-white font-helvetica-neue  font-bold  ">
             Give your online shoppers a better brand experience and level up

@@ -5,7 +5,7 @@ import LandingBackground2 from "../images/LandingBackground2.png";
 const Main = () => {
   return (
     <div className="ml-4 flex flex-col cs:flex-row  justify-between    ">
-      <div className="   mt-20.5  cs:mt-40 cs:ml-82.5 cs:mr-45">
+      <div className="   mt-20.5  cs:mt-40  lp:ml-82.5 cs:ml-20 cd:ml-50 cs:mr-45">
         <div className=" text-ft50-53.78 md:mr-12.5 cs:tracking-tight cs:text-ft86-90 font-bold text-custom-landing-black  font-HelveticaNeueBold w-max h-108px md:w-575px  md:h-188px ">
           <h1 className="  ">Start today.</h1>
           <h1 className="">Sell tomorrow.</h1>
