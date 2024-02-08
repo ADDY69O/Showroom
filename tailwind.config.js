@@ -23,10 +23,13 @@
           
           md: "768px",
           cs: "1403px",
+          gp: "1485px",
+          ns: "1532px",
           cd: "1624px",
           lp: "1789px",
           lg: "1024px",
           xl: "1280px",
+          fk: "1923px",
           "2xl": "1440px"
         },
         fontSize: {

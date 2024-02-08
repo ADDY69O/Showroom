@@ -40,7 +40,7 @@ const body = () => {
         </div>
       </div>
 
-      <div className="relative  ">
+      <div className="relative  fk:w-full ">
         <img
           className="hidden md:block md:w-full  md:h-full "
           src={main2}
@@ -49,7 +49,7 @@ const body = () => {
         <img className=" md:hidden w-full h-full " src={shoess} alt="" />
 
         <div className="absolute  opacity-80 bottom-0 left-0 bg-custom-component-blue-above-image text-custom-nav-button p-4 w-full h-31 cs:h-110px    ">
-          <p className="mt-25px ml-4.75 mr-25 mb-25px  cs:mt-8 cs:ml-51px cs:mb-51px text-ft20-24.42 font-HelveticaNeueMedium  ">
+          <p className="mt-25px ml-4.75 mr-25 mb-25px  cs:mt-8 cs:ml-51px cs:mb-51px text-ft20-24.42 cs:text-ft18-25 gp:text-ft20-24.42 font-HelveticaNeueMedium  ">
             Drag-and-drop products to rearrange store based on data findings.
           </p>
         </div>
