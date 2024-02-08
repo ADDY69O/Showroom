@@ -1,6 +1,6 @@
 import React from "react";
-import AboveFotter from "./aboveFotter";
-import Body from "./body";
+import AboveFotter from "./aboveFotters.js";
+import Body from "./bodyMain.js";
 import Footer from "./footerMain.js";
 import Main from "./mainHome.js";
 
