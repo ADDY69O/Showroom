@@ -1,7 +1,7 @@
 import React from "react";
 import AboveFotter from "./aboveFotter";
 import Body from "./body";
-import Footer from "./footer";
+import Footer from "./footerMain.js";
 import Main from "./mainHome.js";
 
 const landingPage = () => {
