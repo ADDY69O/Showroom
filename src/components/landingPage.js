@@ -1,18 +1,18 @@
-import React from 'react'
-import AboveFotter from './AboveFotter'
-import Body from './Body'
-import Footer from './Footer'
-import Main from './Main'
+import React from "react";
+import AboveFotter from "./aboveFotter";
+import Body from "./body";
+import Footer from "./footer";
+import Main from "./mainHome.js";
 
 const landingPage = () => {
   return (
-    <div className=' ' >
-      <Main/>
-      <Body/>
-      <AboveFotter/>
-      <Footer/>
+    <div className=" ">
+      <Main />
+      <Body />
+      <AboveFotter />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default landingPage
+export default landingPage;

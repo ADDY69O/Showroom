@@ -1,11 +1,11 @@
 import React from "react";
-import FooterInsta from "../Assets/images/FooterInsta.png";
-import FooterLogo from "../Assets/images/FooterLogo.png";
-import FooterTikTok from "../Assets/images/FooterTikTok.png";
-import FooterTwitter from "../Assets/images/FooterTwitter.png";
-import FooterYoutube from "../Assets/images/FotterYoutube.png";
-import FooterLinkedin from "../Assets/images/FooterLinkedin.png";
-const Footer = () => {
+import FooterInsta from "../images/FooterInsta.png";
+import FooterLogo from "../images/FooterLogo.png";
+import FooterTikTok from "../images/FooterTikTok.png";
+import FooterTwitter from "../images/FooterTwitter.png";
+import FooterYoutube from "../images/FotterYoutube.png";
+import FooterLinkedin from "../images/FooterLinkedin.png";
+const footer = () => {
   return (
     <div className="flex flex-col cs:flex-row  justify-between">
       <div className="flex flex-row  md:gap-165">
@@ -32,4 +32,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default footer;

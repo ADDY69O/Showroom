@@ -1,6 +1,6 @@
 import React from "react";
 
-const AboveFotter = () => {
+const aboveFotter = () => {
   return (
     <div className="h-369px  bg-custom-component-blue-above-button text-custom-nav-button flex flex-col   justify-center items-center  ">
       <h1 className="flex flex-row justify-center items-center text-ft40-48.84 font-HelveticaNeueBold font-bold mt-31 mr-77px ml-77px md:mt-118px md:mr-369px md:ml-83.5 text-center md:text-left">
@@ -19,4 +19,4 @@ const AboveFotter = () => {
   );
 };
 
-export default AboveFotter;
+export default aboveFotter;

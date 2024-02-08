@@ -1,7 +1,7 @@
 import React from "react";
-import headerLogo from "../Assets/images/headerLogo.png";
+import headerLogo from "../images/headerLogo.png";
 import { FaBars } from "react-icons/fa";
-const Navbar = () => {
+const navbar = () => {
   return (
     <nav className=" flex flex-row items-center justify-between cs:gap-68 cs:mr-82.5 cs:ml-82.5">
       {/* left  part contains the logo and text */}
@@ -19,13 +19,13 @@ const Navbar = () => {
       <div className="flex flex-row  font-Source-Sans-3 font-semibold   mr-4    cs:gap-8 ">
         <a
           href="/"
-          className=" hidden cs:block text-custom-landing-black font-SansProSemiBold font-semibold  mt-7.5  pt-3.5 pb-3 text-ft15-21.36"
+          className=" hidden cs:block text-custom-landing-black font-SansProSemiBold font-semibold  mt-29px  pt-3.5 pb-3 text-ft15-21.36"
         >
           Pricing
         </a>
 
         <a
-          className=" pt-9px pb-2 pr-2 pl-2  cs:pt-17px cs:pb-13px cs:pr-17px cs:pl-17px cs:ml-8 cs:mt-25px leading-5 text-center items-center mt-25px bg-custom-component-blue-above-button font-SansProSemiBold text-ft15-21.36 font-semibold text-custom-nav-button rounded-full "
+          className=" pt-9px pb-2 pr-2 pl-2 cs:w-155px  cs:pt-3.5 cs:pb-13px cs:pr-17px cs:pl-17px cs:ml-8 cs:mt-27px leading-5 text-center items-center mt-25px bg-custom-component-blue-above-button font-SansProSemiBold text-ft15-21.36 font-semibold text-custom-nav-button rounded-full "
           href=""
         >
           Get Early Access
@@ -35,4 +35,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default navbar;

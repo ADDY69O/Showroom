@@ -1,8 +1,8 @@
 import React from "react";
-import main2 from "../Assets/images/main2.png";
-import shoess from "../Assets/images/shoess.png";
+import main2 from "../images/main2.png";
+import shoess from "../images/shoess.png";
 
-const Body = () => {
+const body = () => {
   return (
     <div className=" mt-32.5 md:mt-313px flex flex-col  lg:flex-row justify-between">
       <div className="">
@@ -58,4 +58,4 @@ const Body = () => {
   );
 };
 
-export default Body;
+export default body;
